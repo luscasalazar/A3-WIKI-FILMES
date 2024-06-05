@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(7, 7, 7);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: goldenrod;
+    text-align: center;
+}
+
+header, footer {
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    color: goldenrod;
+    padding-bottom: 1.5%;
+}
+
+
+footer {
+    padding-top: 1%;
+    width: auto;
+    text-align: center;
+}
+
+
+header{
+    padding-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.marca {
+    border: 1px solid #131111;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #1d1c1c;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+}
+.marca a{
+    color: goldenrod;
+    text-decoration: none;
+}
+.marca:hover {
+    transform: translateY(-5px);
+}
+
+.filmeDoAno{
+    max-width: 100%;
+    height: auto;
+}
+img{
+    max-width: auto;
+    height: 100%;
+}
+
+/* Bento Grid Styles */
+
+.bento-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bento-grid__column--4 {
+    flex-basis: calc(48%);
+}
+
+@media screen and (max-width: 768px) {
+    .bento-grid__column--4 {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bento-grid__column--4 {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+}
+
+
+/* pagina 2 */
+
+.descricao{
+    margin-left: 30%;
+    font-weight: 600;
+    font-size: larger;
+}
+
+header a, div a{
+    color: goldenrod;
+    text-decoration: none;
+}
+header a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.nome2{
+    margin-left: 35%;
+}
+
+/* pagina 3 */
+
+.descricao_marca3{
+    font-weight: 600;
+    font-size: large;
+    background-color: rgb(28, 28, 28);
+}
